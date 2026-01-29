@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import orientations from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-orientations@deno/mod.js';
+import orientations from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-orientations@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-orientations@deno/mod.js';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-orientations@v0.1.0-deno/mod.js';
 ```
 
 #### orientations()
@@ -97,7 +97,7 @@ The output array contains the following types:
 
 ```javascript
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import orientations from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-orientations@deno/mod.js';
+import orientations from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-orientations@v0.1.0-deno/mod.js';
 
 var isMatrixOrientation = contains( orientations() );
 
